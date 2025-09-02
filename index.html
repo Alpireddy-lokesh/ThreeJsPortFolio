@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <script
+      src="https://kit.fontawesome.com/dcee5ef514.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Lokesh Alpireddy's THREEjs Portfolio</title>
+  </head>
+  <body class="light-theme">
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" asscroll-container>
+      <div class="asscrollbar">
+        <div class="asscrollbar__handle"><div></div></div>
+      </div>
+
+      <div class="toggle-bar">
+        <div class="sun-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path
+              fill="currentColor"
+              d="M440-760v-160h80v160h-80Zm266 110-55-55 112-115 56 57-113 113Zm54 210v-80h160v80H760ZM440-40v-160h80v160h-80ZM254-652 140-763l57-56 113 113-56 54Zm508 512L651-255l54-54 114 110-57 59ZM40-440v-80h160v80H40Zm157 300-56-57 112-112 29 27 29 28-114 114Zm283-100q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-80q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm0-160Z"
+            />
+          </svg>
+        </div>
+
+        <button class="toggle-button">
+          <div class="toggle-circle"></div>
+        </button>
+
+        <div class="moon-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path
+              fill="currentColor"
+              d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="page-wrapper" asscroll>
+        <section class="hero">
+          <div class="hero-wrapper">
+            <div class="intro-text">Welcome to my THREE.js portfolio!</div>
+
+            <div class="arrow-wrapper">
+              <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M480-362q-8 0-15-2.5t-13-8.5L268-557q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-373q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg> -->
+              <div class="chevrons">
+                <div class="chevrondown"></div>
+                <div class="chevrondown"></div>
+              </div>
+            </div>
+
+            <div class="hero-main">
+              <div class="hero-profile-section">
+                <img src="/mypic.jpg.jpg" alt="Lokesh Alpireddy" class="hero-profile-pic" />
+                <div class="hero-text-content">
+                  <h1 class="hero-main-title">Lokesh Alpireddy</h1>
+                  <p class="hero-main-description">
+                    Java Full Stack Developer | Software Engineer
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-second">
+              <p class="hero-second-subheading">MY THREE.JS</p>
+              <p class="hero-second-description">P.O.RT.F.OL.I.O</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="first-move section-margin"></div>
+
+        <section class="first-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">Introduction</span>
+              <div class="section-title-decoration style1"></div>
+              <div class="section-title-decoration style2"></div>
+              <div class="section-title-decoration style3"></div>
+            </h1>
+            <span class="section-number">01</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">About Me</h3>
+            <p class="section-text">
+              <strong>Name:</strong> Lokesh Alpireddy<br>
+              <strong>Role:</strong> Java Full Stack Developer | Software Engineer<br>
+              <strong>Date of Birth:</strong> January 23, 2004<br>
+              <strong>Location:</strong> Hyderabad, Telangana, India<br>
+              <strong>Phone:</strong> +91 9182216249<br>
+              <strong>Email:</strong> alpireddylokesh@gmail.com<br>
+              <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alpireddy-lokesh-070a4b259/" target="_blank" class="profile-link">Connect with me on LinkedIn</a><br>
+              <strong>GitHub:</strong> <a href="https://github.com/Alpireddy-lokesh" target="_blank" class="profile-link">Explore my repositories</a>
+            </p>
+            
+            <h3 class="section-heading">Professional Objective</h3>
+            <p class="section-text">
+              I am a motivated and passionate B.Tech graduate specializing in Software Development with a strong foundation in building modern, scalable applications. My journey in technology began with a fascination for problem-solving and has evolved into expertise in full-stack development, machine learning, and cloud technologies.
+            </p>
+            <p class="section-text">
+              Currently seeking an entry-level Software Developer role where I can contribute to impactful IT projects while continuously enhancing my technical skills. I am particularly excited about opportunities that involve modern web technologies, API development, and collaborative team environments.
+            </p>
+            
+            <h3 class="section-heading">Technical Expertise</h3>
+            <p class="section-text">
+              <strong>Programming Languages:</strong><br>
+              • Java: Advanced proficiency in core Java, OOP, Collections Framework, and DSA<br>
+              • Python: Web development, ML libraries (scikit-learn, pandas, numpy), API development<br>
+              • C: Systems programming and algorithmic problem solving<br>
+              • JavaScript: Modern ES6+ features, DOM manipulation, asynchronous programming
+            </p>
+            <p class="section-text">
+              <strong>Frontend & Backend:</strong><br>
+              • React.js: Component-based architecture, hooks, state management<br>
+              • Spring Boot: RESTful APIs, dependency injection, microservices<br>
+              • Spring Security: Authentication, authorization, role-based access control<br>
+              • MySQL & PostgreSQL: Database design, optimization, complex queries
+            </p>
+            
+            <h3 class="section-heading">Education & Certifications</h3>
+            <p class="section-text">
+              <strong>B.Tech (ECE)</strong> - MVSR Engineering College, Osmania University (2021–2025) — CGPA: 7.63<br>
+              <strong>Certifications:</strong> Python Essentials (IIT Bombay), Networking Essentials (Cisco), Java Fundamentals (CodeSoft), AWS Cloud Computing & ML (AICTE)
+            </p>
+            
+            <button class="section-button">
+              <a href="/others/LokeshAlpireddy_Resume_.pdf" target="_blank">Download Resume →</a>
+            </button>
+          </div>
+        </section>
+
+        <div class="second-move section-margin"></div>
+
+        <section class="second-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">Projects</span>
+              <div class="section-title-decoration style1 blue-border"></div>
+              <div class="section-title-decoration style2 blue-border"></div>
+              <div
+                class="section-title-decoration style3 blue-background blue-border"
+              ></div>
+            </h1>
+            <span class="section-number blue-text">02</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Featured Portfolio Projects</h3>
+            <p class="section-text">
+              Here are some of my key projects that demonstrate my technical expertise across different domains including machine learning, real-time communication systems, and full-stack web development.
+            </p>
+            
+            <h3 class="section-heading">1. House Price Prediction System (Advanced Machine Learning)</h3>
+            <p class="section-text">
+              🏠 <strong>Intelligent Real Estate Analytics Platform</strong> - Developed a comprehensive machine learning solution for predicting real estate prices using advanced data science techniques and supervised learning algorithms. This cutting-edge system leverages multiple regression algorithms including Linear Regression, Random Forest, and Gradient Boosting to deliver highly accurate property valuations.
+            </p>
+            <p class="section-text">
+              <strong>🔧 Technical Implementation:</strong> Built predictive models with comprehensive feature engineering, data normalization, outlier detection, and categorical encoding. Applied advanced preprocessing methods and conducted thorough model validation using cross-validation techniques.<br>
+              <strong>🌟 Key Features:</strong> Real-time price predictions, interactive data visualizations, market trend analysis, comparative property analysis, exportable prediction reports<br>
+              <strong>💻 Tech Stack:</strong> Python, Scikit-learn, Pandas, NumPy, Streamlit, Flask, Matplotlib, Seaborn, Machine Learning, Data Analytics<br>
+              <strong>📊 Performance Impact:</strong> Achieved 87% prediction accuracy and reduced property valuation time by 75%
+            </p>
+            <button class="section-button">
+              <a href="https://github.com/Alpireddy-lokesh/House-Price-Prediction" target="_blank">View GitHub Repository →</a>
+            </button>
+            
+            <h3 class="section-heading">2. ConvoCode – Enterprise Real-time Communication Platform</h3>
+            <p class="section-text">
+              💬 <strong>Scalable Enterprise Chat Solution</strong> - Engineered a high-performance, enterprise-grade real-time communication platform designed for seamless team collaboration and secure messaging. This sophisticated system supports massive concurrent users with lightning-fast message delivery and advanced security features.
+            </p>
+            <p class="section-text">
+              <strong>🚀 Advanced Architecture:</strong> Implemented real-time bidirectional communication using Django Channels and WebSocket protocols with Redis as message broker for optimal performance. Features enterprise-grade security with end-to-end encryption and role-based access control.<br>
+              <strong>🌟 Premium Features:</strong> Real-time messaging, file sharing, admin dashboard, user analytics, mobile responsiveness, enterprise security, chat rooms with access codes<br>
+              <strong>💻 Tech Stack:</strong> Django, Django Channels, WebSockets, Redis, PostgreSQL, Docker, Python, JavaScript, HTML/CSS<br>
+              <strong>⚡ Performance Metrics:</strong> Supports 500+ concurrent users with sub-100ms message delivery latency
+            </p>
+            <button class="section-button">
+              <a href="https://github.com/Alpireddy-lokesh/convocode" target="_blank">View GitHub Repository →</a>
+            </button>
+            
+            <h3 class="section-heading">3. Car Rental Management System (Full Stack Enterprise Solution)</h3>
+            <p class="section-text">
+              🚗 <strong>Comprehensive Vehicle Management Platform</strong> - Developed a feature-rich car rental management platform featuring advanced booking systems, integrated payment processing, and sophisticated multi-role user management. This enterprise-level solution streamlines the entire rental workflow from car discovery to payment completion.
+            </p>
+            <p class="section-text">
+              <strong>🏗️ Robust Architecture:</strong> Built dynamic and responsive user interface using React.js with modern hooks and architected robust RESTful APIs using Spring Boot framework with microservices principles. Implemented enterprise-grade security using Spring Security with JWT-based authentication.<br>
+              <strong>🌟 Enterprise Features:</strong> Multi-role dashboards, real-time booking system, payment gateway integration, SMS/Email notifications, comprehensive reporting, inventory management<br>
+              <strong>💻 Tech Stack:</strong> React.js, Spring Boot, Spring Security, MySQL, Twilio API, JWT, Maven, REST APIs, Microservices<br>
+              <strong>📈 Business Impact:</strong> Reduced booking processing time by 60% and improved customer satisfaction scores by 40%
+            </p>
+          </div>
+        </section>
+
+        <div class="third-move section-margin"></div>
+
+        <section class="third-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar green-background"></div>
+          </div>
+          <div class="section-intro-wrapper green-text green-border">
+            <h1 class="section-title green-text green-border">
+              <span class="section-title-text green-text">Skills & Goals</span>
+              <div class="section-title-decoration style1 green-border"></div>
+              <div class="section-title-decoration style2 green-border"></div>
+              <div
+                class="section-title-decoration style3 green-background green-border"
+              ></div>
+            </h1>
+            <span class="section-number green-text">03</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Career Aspirations</h3>
+            <p class="section-text">
+              I am actively seeking opportunities in software development where I can contribute to meaningful projects and grow as a professional developer. My goal is to join a dynamic team that values innovation, collaboration, and continuous learning. I am particularly interested in roles that involve full-stack development, cloud technologies, and modern web frameworks.
+            </p>
+            
+            <h3 class="section-heading">Current Learning Path</h3>
+            <p class="section-text">
+              I am continuously expanding my skill set by exploring advanced technologies and industry best practices. Currently focusing on:
+            </p>
+            <p class="section-text">
+              • <strong>Advanced React Patterns:</strong> Learning React Native for mobile development and Redux for state management<br>
+              • <strong>Microservices Architecture:</strong> Exploring Docker containerization and Kubernetes orchestration<br>
+              • <strong>Cloud Technologies:</strong> Advancing AWS knowledge with Lambda, API Gateway, and serverless architectures<br>
+              • <strong>DevOps Practices:</strong> Implementing CI/CD pipelines and automated testing frameworks<br>
+              • <strong>Data Science:</strong> Enhancing ML skills with TensorFlow and advanced algorithms
+            </p>
+            
+            <h3 class="section-heading">Professional Values & Future Vision</h3>
+            <p class="section-text">
+              I believe in writing clean, maintainable code and following industry best practices. My approach emphasizes user-centered design, performance optimization, and scalable architecture. I value teamwork, clear communication, and knowledge sharing.
+            </p>
+            <p class="section-text">
+              Looking ahead, I envision myself becoming a senior full-stack developer who can architect and lead complex software projects. I am particularly excited about the intersection of AI and web development, planning to leverage my machine learning background to create intelligent, data-driven applications.
+            </p>
+          </div>
+        </section>
+
+        <div class="fourth-move section-margin"></div>
+
+        <section class="fourth-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">Contact Me</span>
+              <div class="section-title-decoration style1 blue-border"></div>
+              <div class="section-title-decoration style2 blue-border"></div>
+              <div
+                class="section-title-decoration style3 blue-background blue-border"
+              ></div>
+            </h1>
+            <span class="section-number blue-text">04</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Contact Me</h3>
+            <p class="section-text">
+              I'm actively seeking opportunities in software development and would love to connect with fellow developers and potential employers. Feel free to reach out for collaborations, opportunities, or just to chat about technology!
+            </p>
+            <ul class="contact-button-wrapper">
+              <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span
+                  ><a href="https://github.com/Alpireddy-lokesh" target="_blank"
+                    ><i class="fa-brands fa-github"></i></a
+                ></span>
+              </li>
+              <li class="icon linkedin">
+                <span class="tooltip">Linkedin</span>
+                <span
+                  ><a
+                    href="https://www.linkedin.com/in/alpireddy-lokesh-070a4b259/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i></a
+                ></span>
+              </li>
+              <li class="icon gmail">
+                <span class="tooltip">Email: alpireddylokesh@gmail.com</span>
+                <span
+                  ><a href="mailto:alpireddylokesh@gmail.com" target="_blank"
+                    ><i class="fa-regular fa-envelope"></i></a
+                ></span>
+              </li>
+            </ul>
+
+            <h3 class="section-heading">Additional Info</h3>
+            <p class="section-text">
+              <b>Location:</b> Hyderabad, Telangana, India<br>
+              <b>Phone:</b> +91 9182216249<br>
+              <b>Education:</b> B.Tech (ECE), MVSR Engineering College, Osmania University (2021–2025) — CGPA: 7.63
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
